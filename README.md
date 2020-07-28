@@ -21,3 +21,76 @@ MarkDown是一种超文本语言，今天我第一次学习了它。
 ```cat ~/.ssh/id_rsa.pub```
 
 这条指令来查看自己的ssh是否配置
+
+全局变量设置
+
+在第一次使用git时,git会提醒进行全局变量的配置
+
+```git config --global user.name "peng"```
+
+```git config --global user.email "hhdd576@126.com"```
+
+git clone的语法非常简单
+
+```git clone 仓库地址``` 
+
+仓库地址在github上找到
+
+# 常见的linux命令
+
+查看目录下的文件
+
+```ls```
+
+在当前目录下创建文件
+
+```touch 文件```
+
+在当前目录下创建文件夹
+
+```mkdir 文件夹```
+
+进入某个文件夹
+
+```cd 文件目录```
+
+删除当前目录下的文件
+
+```rm -rf 文件名```
+
+# git提交的三部曲
+
+git提交一般分为三步
+
+1. git add
+1. git commit
+1. git push
+
+# git add
+
+```git add -A```
+
+# git commit
+
+```git commit -m "备注"```
+
+# git push
+
+第一次提交
+
+```git push origin master```
+
+第二次到第n次
+
+```git push```
+
+提交到其他的分支
+
+```git push origin b```
+
+
+
+
+
+
+
