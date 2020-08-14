@@ -104,6 +104,40 @@ git提交一般分为三步
 
 ```git remote -v```
 
+创建博客文件夹
+
+```hexo init blog```
+
+## 安装博客工具
+
+打开terminal 输入下列指令:
+
+```npm install hexo-deployer-git --save```
+
+## 修改配置文件
+
+进入博客文件夹找到 _config.yml 这个文件，打开输入配置
+
+```
+theme: landscape
+
+deploy:
+
+  type: git
+
+  repository: 你的GitHub仓库地址
+
+  branch: master
+```
+
+## Hexo提交
+
+Hexo的提交也分为三个部分
+
+1. hexo clean
+2. hexo generate
+3. hexo deploy
+
 
 
 
