@@ -88,6 +88,23 @@ git提交一般分为三步
 
 ```git push origin b```
 
+查看当前绑定的仓库
+
+```git remote -v```
+
+初始化为git仓库
+
+```git init```
+
+仓库地址
+
+```git remote add origin + 仓库地址```
+
+查看绑定的情况
+
+```git remote -v```
+
+
 
 
 
